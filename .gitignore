@@ -10,3 +10,42 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/target/
+
+# Binaries
+######################
+*.class
+ 
+# Eclipse
+######################
+.project
+.settings
+.classpath
+
+#IntelliJ
+*.iml
+ 
+# Maven
+######################
+target
+bin
+#### Release Plugin
+*.releaseBackup
+*.versionsBackup
+release.properties
+pom.xml.tag
+pom.xml.next
+ 
+# Temporary files
+######################
+*.swp
+*.log
+log
+bin
+pom.xml.versionsBackup
+
+# Mac temp file
+.DS_Store
+
+#Eclipse Spring plugin
+.springBeans
